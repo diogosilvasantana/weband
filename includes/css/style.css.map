@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACH,OAAO,EAAE,CAAC",
+"sources": ["../sass/components/_menu.scss"],
+"names": [],
+"file": "style.css"
+}

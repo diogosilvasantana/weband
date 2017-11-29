@@ -1,0 +1,43 @@
+#agenda{
+  margin-top: -400px;
+}
+
+.agenda-titulo{
+font-family: 'Permanent Marker', cursive;
+}
+.seta-left{
+  text-align: right;
+  margin-top: 50px;
+}
+.seta-right{
+  text-align: left;
+  margin-top: 50px;
+}
+
+.item{
+  background-color:rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  border: dotted 1px #fff;
+
+  .dia{
+    font-size: 70px;
+    margin-bottom: -50px
+  }
+  .mes{
+    font-size: 30px;
+    margin-bottom: -25px;
+  }
+  .cidade{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -25px;
+  }
+  .local{
+    font-family: Arial;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+}

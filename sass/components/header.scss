@@ -1,0 +1,8 @@
+.menu-background{
+  background-color:rgba(0, 0, 0, 0.5);
+}
+nav ul a {
+  &:hover{
+    margin-bottom: solid 2px orange;
+  }
+}

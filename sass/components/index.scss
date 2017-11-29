@@ -1,0 +1,39 @@
+.container{
+  width: 95%;
+}
+#home{
+  height: 800px;
+  margin-top: -65px;
+}
+.logomarca{
+  margin-top: 150px;
+}
+.parallax-container{
+  height: 400px;
+}
+.social{
+  margin-top: 80px;
+  margin-right: 80px;
+  text-align: right;
+
+  li{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    background-color: #fff;
+
+    a{
+
+    }
+  }
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+}
