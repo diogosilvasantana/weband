@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="includes/css/custom.css" />
     <!-- jQuery Scrollpane -->
     <link rel="stylesheet" href="includes/css/jquery.jscrollpane.css" />
+    <link rel="stylesheet" href="includes/css/application.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
 
   </head>
   <body>
@@ -153,6 +156,21 @@
                 <p>
                   These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
                 </p>
+                <p>
+                  These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                </p>
+                <p>
+                  These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                </p>
+                <p>
+                  These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                </p>
+                <p>
+                  These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                </p>
+                <p>
+                  These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                </p>
               </div>
             </div>
 
@@ -235,9 +253,12 @@
               </div>
           </div>
 
-          <div id="fotos" class="section scrollspy yellow">
-            <h2 class="title">FOTOS</h2>
-          </div>
+          <section class="photos" id="fotos">
+              <h2 class="hidden">Fotos</h2>
+              <div class="photos-list swiper-container">
+                  <div class="swiper-wrapper"></div>
+              </div>
+          </section>
 
           <div id="redes_sociais" class="section scrollspy green">
             <h2 class="title">REDES SOCIAIS</h2>
@@ -325,6 +346,14 @@
     <script src="includes/js/jquery.mousewheel.js"></script>
     <script src="includes/js/jquery.jscrollpane.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.esm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.esm.bundle.js"></script>
+    <script async defer src="assets/javascripts/application.js"></script>
+
+
+    <script src="includes/js/application.js"></script>
 
     <script>
       $( document ).ready(function(){
@@ -356,6 +385,8 @@
           }
         })
 
+
+
         $('.scroll-pane')
         .jScrollPane({
           showArrows: true,
@@ -371,6 +402,9 @@
 
       })
     </script>
+
+
+
 
   </body>
 </html>

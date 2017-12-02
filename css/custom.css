@@ -89,4 +89,11 @@ nav ul a:hover {
 .jspDrag {
   width: 2px; }
 
+.jspArrow.jspDisabled {
+  display: none;
+  color: transparent; }
+
+.jspArrow {
+  display: none; }
+
 /*# sourceMappingURL=custom.css.map */
