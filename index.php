@@ -18,9 +18,7 @@
     <link rel="stylesheet" href="includes/css/custom.css" />
     <!-- jQuery Scrollpane -->
     <link rel="stylesheet" href="includes/css/jquery.jscrollpane.css" />
-    <link rel="stylesheet" href="includes/css/application.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
+
 
   </head>
   <body>
@@ -245,6 +243,8 @@
 
           <div id="videos" class="section scrollspy black">
               <h2 class="title">VIDEOS</h2>
+
+              <div id="youtube" class="spidochetube"></div>
 
           </div>
 
