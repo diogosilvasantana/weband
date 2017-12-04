@@ -243,22 +243,18 @@
             </div>
           </div>
 
-          <div id="videos" class="section scrollspy parallax-container">
+          <div id="videos" class="section scrollspy black">
               <h2 class="title">VIDEOS</h2>
-              <div class="parallax"><img src="includes/img/home.jpg"></div>
-              <div class="container white-text">
-                <p>
-                  These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
-                </p>
-              </div>
+
           </div>
 
-          <section class="photos" id="fotos">
-              <h2 class="hidden">Fotos</h2>
-              <div class="photos-list swiper-container">
-                  <div class="swiper-wrapper"></div>
-              </div>
-          </section>
+          <div class="instagram" style="margin: -15px 0;">
+            <section class="section scrollspy black" id="fotos">
+              <script src="includes/js/instagram.js" defer></script>
+              <div class="elfsight-app-ee9ac65f-59f7-474e-8bc2-5459a29ab963"></div>
+            </section>
+          </div>
+
 
           <div id="redes_sociais" class="section scrollspy green">
             <h2 class="title">REDES SOCIAIS</h2>
@@ -346,62 +342,8 @@
     <script src="includes/js/jquery.mousewheel.js"></script>
     <script src="includes/js/jquery.jscrollpane.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.esm.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.esm.bundle.js"></script>
-    <script async defer src="assets/javascripts/application.js"></script>
+    <script src="includes/js/app.js"></script>
 
-
-    <script src="includes/js/application.js"></script>
-
-    <script>
-      $( document ).ready(function(){
-
-        $('.parallax').parallax();
-
-        $(".button-collapse").sideNav();
-
-        $(document).ready(function(){
-          $('.scrollspy').scrollSpy({
-            scrollOffset: 65
-          });
-        });
-
-        $('.owl-carousel').owlCarousel({
-          loop:true,
-          margin:10,
-          nav:false,
-          responsive:{
-            0:{
-              items:1
-            },
-            600:{
-              items:3
-            },
-            1000:{
-              items:4
-            }
-          }
-        })
-
-
-
-        $('.scroll-pane')
-        .jScrollPane({
-          showArrows: true,
-          verticalGutter: 10
-        })
-        .bind(
-            'mousewheel',
-            function(e)
-            {
-                e.preventDefault();
-            }
-        );
-
-      })
-    </script>
 
 
 
