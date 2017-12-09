@@ -30,7 +30,7 @@
         <nav class="transparent">
           <div class="nav-wrapper menu-background">
             <div class="container">
-            <a href="#" class="brand-logo">Logo</a>
+            <div class="brand-logo"><img src="includes/img/logo_header.png"></div>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="#home">HOME</a></li>

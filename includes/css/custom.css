@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+.brand-logo {
+  width: 270px; }
+  .brand-logo img {
+    width: 100%;
+    margin-top: 13px; }
+
 .container {
   width: 95%; }
 
@@ -32,6 +38,16 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: #fff; }
+
+.element.style {
+  margin-right: 0; }
+
+.instagram .section {
+  margin-top: -15px;
+  margin-bottom: -15px; }
+
+#ibacordotcom-content {
+  padding: 0 100px; }
 
 .menu-background {
   background-color: rgba(0, 0, 0, 0.5); }
