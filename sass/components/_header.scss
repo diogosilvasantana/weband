@@ -1,8 +1,41 @@
-.menu-background{
-  background-color:rgba(0, 0, 0, 0.5);
-}
-nav ul a {
-  &:hover{
-    margin-bottom: solid 2px orange;
+.brand-logo{
+  width: 270px;
+  opacity: 0;
+  transition: 0.6s;
+
+  img{
+    width: 80%;
+    margin-top: 16px;
   }
 }
+
+.menu-background{
+  background-color: transparent;
+  transition: 0.3s;
+}
+.nav-wrapper{
+  margin-top: 10px;
+  transition: 0.3s;
+  ul{
+    li{
+      a{
+
+        span{
+          &:hover{
+            border-bottom: solid 2px orange;
+            padding-bottom: 5px;
+          }
+        }
+
+        &:hover {
+          background: transparent;
+          padding-bottom: -10px;
+        }
+      }
+    }
+  }
+}
+.menu-center{
+  margin-left: 24%;
+}
+

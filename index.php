@@ -27,20 +27,20 @@
 
     <header>
       <div class="navbar-fixed">
-        <nav class="transparent">
+        <nav class="transparent z-depth-0">
           <div class="nav-wrapper menu-background">
             <div class="container">
             <div class="brand-logo"><img src="includes/img/logo_header.png"></div>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="#home">HOME</a></li>
-              <li><a href="#agenda">AGENDA</a></li>
-              <li><a href="#release">RELEASE</a></li>
-              <li><a href="#musicas">MÚSICAS</a></li>
-              <li><a href="#videos">VIDEOS</a></li>
-              <li><a href="#fotos">FOTOS</a></li>
-              <li><a href="#redes_sociais">REDES SOCIAIS</a></li>
-              <li><a href="#contato">CONTATO</a></li>
+            <ul id="nav-mobile" class="menu-center hide-on-med-and-down">
+              <li><a href="#home"><span>HOME</span></a></li>
+                <li><a href="#agenda"><span>AGENDA</span></a></li>
+                <li><a href="#release"><span>RELEASE</span></a></li>
+                <li><a href="#musicas"><span>MÚSICAS</span></a></li>
+                <li><a href="#videos"><span>VIDEOS</span></a></li>
+                <li><a href="#fotos"><span>FOTOS</span></a></li>
+                <li><a href="#redes_sociais"><span>REDES SOCIAIS</span></a></li>
+              <li><a href="#contato"><span>CONTATO</span></a></li>
             </ul>
         </nav>
         </div>

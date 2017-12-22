@@ -1,16 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
-.brand-logo {
-  width: 270px; }
-  .brand-logo img {
-    width: 100%;
-    margin-top: 13px; }
-
 .container {
   width: 95%; }
 
 #home {
-  height: 800px;
+  height: 850px;
   margin-top: -65px; }
 
 .logomarca {
@@ -49,11 +43,30 @@ h2 {
 #ibacordotcom-content {
   padding: 0 100px; }
 
-.menu-background {
-  background-color: rgba(0, 0, 0, 0.5); }
+.brand-logo {
+  width: 270px;
+  opacity: 0;
+  transition: 0.6s; }
+  .brand-logo img {
+    width: 80%;
+    margin-top: 16px; }
 
-nav ul a:hover {
-  margin-bottom: solid 2px orange; }
+.menu-background {
+  background-color: transparent;
+  transition: 0.3s; }
+
+.nav-wrapper {
+  margin-top: 10px;
+  transition: 0.3s; }
+  .nav-wrapper ul li a span:hover {
+    border-bottom: solid 2px orange;
+    padding-bottom: 5px; }
+  .nav-wrapper ul li a:hover {
+    background: transparent;
+    padding-bottom: -10px; }
+
+.menu-center {
+  margin-left: 24%; }
 
 #agenda {
   margin-top: -400px; }
