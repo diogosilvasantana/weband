@@ -7,9 +7,6 @@
   height: 850px;
   margin-top: -65px; }
 
-.logomarca {
-  margin-top: 150px; }
-
 .parallax-container {
   height: 400px; }
 
@@ -51,6 +48,18 @@ h2 {
     width: 80%;
     margin-top: 16px; }
 
+.logomarca img {
+  margin-top: 90px;
+  margin-left: 25%; }
+
+.foto-topo img {
+  margin-right: 30%; }
+
+.youtube {
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 20%; }
+
 .menu-background {
   background-color: transparent;
   transition: 0.3s; }
@@ -59,17 +68,19 @@ h2 {
   margin-top: 10px;
   transition: 0.3s; }
   .nav-wrapper ul li a span:hover {
-    border-bottom: solid 2px orange;
+    border-bottom: solid 2px #f6dd28;
     padding-bottom: 5px; }
   .nav-wrapper ul li a:hover {
     background: transparent;
     padding-bottom: -10px; }
 
 .menu-center {
-  margin-left: 24%; }
+  margin-left: 24%;
+  font-family: "Roboto", sans-serif; }
 
 #agenda {
-  margin-top: -400px; }
+  background-image: url("../../includes/img/agenda-bg.jpg");
+  text-align: center; }
 
 .agenda-titulo {
   font-family: 'Permanent Marker', cursive; }
@@ -103,6 +114,11 @@ h2 {
     font-family: Arial;
     font-size: 12px;
     margin-bottom: 15px; }
+
+#release {
+  background-image: url("../../includes/img/release-bg.jpg"); }
+  #release .title {
+    margin-left: 30%; }
 
 .scroll-pane {
   width: 100%;

@@ -9,10 +9,32 @@
   }
 }
 
+
+.logomarca{
+    img{
+      margin-top: 90px;
+      margin-left: 25%;
+    }
+}
+
+.foto-topo{
+  img{
+    margin-right: 30%;
+  }
+}
+
+.youtube {
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
 .menu-background{
   background-color: transparent;
   transition: 0.3s;
 }
+
+
 .nav-wrapper{
   margin-top: 10px;
   transition: 0.3s;
@@ -22,7 +44,7 @@
 
         span{
           &:hover{
-            border-bottom: solid 2px orange;
+            border-bottom: solid 2px #f6dd28;
             padding-bottom: 5px;
           }
         }
@@ -37,5 +59,6 @@
 }
 .menu-center{
   margin-left: 24%;
+  font-family: "Roboto", sans-serif;
 }
 

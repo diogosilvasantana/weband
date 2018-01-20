@@ -30,14 +30,13 @@
         <nav class="transparent z-depth-0">
           <div class="nav-wrapper menu-background">
             <div class="container">
-            <div class="brand-logo"><img src="includes/img/logo_header.png"></div>
+            <div class="brand-logo"><img src="includes/img/logo_menu.png"></div>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="menu-center hide-on-med-and-down">
               <li><a href="#home"><span>HOME</span></a></li>
                 <li><a href="#agenda"><span>AGENDA</span></a></li>
                 <li><a href="#release"><span>RELEASE</span></a></li>
                 <li><a href="#musicas"><span>MÚSICAS</span></a></li>
-                <li><a href="#videos"><span>VIDEOS</span></a></li>
                 <li><a href="#fotos"><span>FOTOS</span></a></li>
                 <li><a href="#redes_sociais"><span>REDES SOCIAIS</span></a></li>
               <li><a href="#contato"><span>CONTATO</span></a></li>
@@ -51,7 +50,6 @@
                 <li><a href="#agenda">AGENDA</a></li>
                 <li><a href="#release">RELEASE</a></li>
                 <li><a href="#musicas">MÚSICAS</a></li>
-                <li><a href="#videos">VIDEOS</a></li>
                 <li><a href="#fotos">FOTOS</a></li>
                 <li><a href="#redes_sociais">REDES SOCIAIS</a></li>
                 <li><a href="#contato">CONTATO</a></li>
@@ -69,14 +67,21 @@
     <section>
       <div id="home" class="section scrollspy parallax-container">
         <div class="parallax">
-          <img src="https://s2.glbimg.com/bZJZ7zlFD2vbCuvH2w80wwvimak=/0x0:1600x1067/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/i/V/UJvHpyRByNf5DZ7Kyf1A/2.jpg">
+          <img src="includes/img/bg-top.jpg">
           </div>
 
           <div class="row">
             <div class="col s6 logomarca">
-              <h2>Sua Logo Aqui</h2>
+                <img src="includes/img/logo_header.png" align="center">
+                <div class="youtube">
+                    <iframe src="https://www.youtube.com/embed/Cd413EKTggQ?autoplay=1&showinfo=0&rel=0&iv_load_policy=3&fs=0&autohide=0&controls=0&disablekb=1" width="720" height="405" frameborder="0"></iframe>
+                </div>
             </div>
 
+              <div class="col s4 foto-topo">
+                  <img src="includes/img/foto-principal.png">
+              </div>
+<!--
             <div class="col s6">
               <ul class="social container">
                 <li><a href="#Facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
@@ -86,10 +91,9 @@
               </ul>
             </div>
           </div>
-
+-->
           </div>
       </div>
-
 
 
       <!-- AGENDA -->
@@ -124,9 +128,8 @@
       </div>
 
       <!-- RELEASE -->
-        <div id="release" class="section scrollspy purple">
+        <div id="release" class="section scrollspy">
           <h2 class="title">RELEASE</h2>
-
 
           <!-- RELASE DESKTOP -->
           <div class="row container hide-on-med-and-down">
@@ -241,12 +244,7 @@
             </div>
           </div>
 
-          <div id="videos" class="section scrollspy black">
-              <h2 class="title">VIDEOS</h2>
 
-              <div id="youtube" class="spidochetube"></div>
-
-          </div>
 
           <div class="instagram" style="margin: -15px 0;">
             <section class="section scrollspy black" id="fotos">
